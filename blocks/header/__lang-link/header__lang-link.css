@@ -1,5 +1,8 @@
 .header__lang-link {
-    text-decoration: none;
-    color: #FFF;
-    margin-left: 18px;
+    opacity: 0;
+    width: 18px;
+}
+
+.header__lang-link:checked + .header__label {
+    text-decoration: underline;
 }
