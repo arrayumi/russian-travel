@@ -1,0 +1,7 @@
+.place__image {
+   width: 100%;
+   min-width: 320px;
+   min-height: 320px;
+   position: relative;
+   left: -16px;
+}
