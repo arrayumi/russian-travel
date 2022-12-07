@@ -2,6 +2,11 @@
    width: 100%;
    min-width: 320px;
    min-height: 320px;
-   position: relative;
-   left: -16px;
+}
+
+@media screen and (max-width: 720px) {
+   .place__image {
+      position: relative;
+      left: -16px;
+   }
 }

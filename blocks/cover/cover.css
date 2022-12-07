@@ -1,3 +1,6 @@
 .cover {
     padding: 64px 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
 }
