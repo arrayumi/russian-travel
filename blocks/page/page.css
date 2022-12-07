@@ -3,3 +3,9 @@
     color: #FFF;
     padding: 0 16px;
 }
+
+@media screen and (min-width: 768px) {
+    .page {
+        padding: 0 24px;
+    }
+}

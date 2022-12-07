@@ -3,6 +3,6 @@
     width: 18px;
 }
 
-.header__lang-link:checked + .header__label {
+.header__lang-link:checked+.header__label {
     text-decoration: underline;
 }
