@@ -12,9 +12,28 @@
     overflow: hidden;
 }
 
+@media screen and (min-width: 500px) {
+    .cover__title {
+        top: 35%;
+    }
+}
+
 @media screen and (min-width: 768px) {
     .cover__title {
         font-size: 72px;
         line-height: 1.06;
+        top: 30%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .cover__title {
+        top: 34%;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .cover__title {
+        top: 36%;
     }
 }

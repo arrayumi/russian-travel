@@ -28,3 +28,15 @@
         min-height: 480px;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .cover__background {
+        min-height: 640px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .cover__background {
+        min-height: 740px;
+    }
+}

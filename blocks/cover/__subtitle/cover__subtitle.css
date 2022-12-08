@@ -19,3 +19,15 @@
         width: 360px;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .cover__subtitle {
+        bottom: 34%;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .cover__subtitle {
+        bottom: 36%;
+    }
+}

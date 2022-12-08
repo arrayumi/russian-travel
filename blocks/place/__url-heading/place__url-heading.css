@@ -8,5 +8,10 @@
     line-height: 1;
     letter-spacing: 2px;
     color: #AAA;
+}
 
+@media screen and (min-width: 1024px) {
+    .place__url-heading {
+        line-height: 1.7;
+    }
 }
