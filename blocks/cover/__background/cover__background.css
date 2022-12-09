@@ -4,6 +4,8 @@
     width: 100%;
     min-width: 320px;
     height: 100%;
+    position: relative;
+    z-index: -1;
 }
 
 .cover__background::before {
