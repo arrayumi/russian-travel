@@ -1,19 +1,30 @@
 .place__image {
    width: 100%;
-   min-width: 320px;
    min-height: 320px;
    max-width: 460px;
+   object-fit: contain;
 }
 
-@media screen and (max-width: 660px) {
+@media screen and (min-width: 660px) {
    .place__image {
-      position: relative;
-      left: -16px;
+      padding-left: 24px;
    }
 }
 
 @media screen and (min-width: 640px) {
    .place__image {
       grid-row: 2/5;
+   }
+}
+
+@media screen and (min-width: 1024px) {
+   .place__image {
+      padding-left: 48px;
+   }
+}
+
+@media screen and (min-width: 1280px) {
+   .place__image {
+      padding-left: 148px;
    }
 }
