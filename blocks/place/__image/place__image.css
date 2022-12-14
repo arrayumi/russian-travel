@@ -1,19 +1,19 @@
 .place__image {
    width: 100%;
-   min-height: 320px;
-   max-width: 460px;
-   object-fit: contain;
+   min-height: 330px;
+   box-sizing: border-box;
 }
 
-@media screen and (min-width: 660px) {
-   .place__image {
-      padding-left: 24px;
-   }
-}
 
 @media screen and (min-width: 640px) {
    .place__image {
       grid-row: 2/5;
+   }
+}
+
+@media screen and (min-width: 768px) {
+   .place__image {
+      padding-left: 24px;
    }
 }
 

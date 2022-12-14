@@ -2,6 +2,10 @@
     padding-top: 32px;
 }
 
+.footer__list-item:first-child {
+    padding: 0;
+}
+
 @media screen and (min-width: 768px) {
     .footer__list-item {
         padding: 0;

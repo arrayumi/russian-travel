@@ -51,4 +51,4 @@
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 
 @import url(../blocks/link/link.css);
-@import url(../blocks/link/link_active/link_active.css);
+@import url(../blocks/link/_active/link_active.css);
