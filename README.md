@@ -7,4 +7,4 @@
 https://arrayumi.github.io/russian-travel/
 
 ### Стек технологий:
-HTML | CSS | БЭМ | FlexBox/Grid layout
+`HTML` `CSS` `БЭМ` `FlexBox/Grid layout`
